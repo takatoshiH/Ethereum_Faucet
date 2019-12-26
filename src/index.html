@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ethereum Faucet</title>
+    <meta charset="utf-8" />
+    <script src="./main.js"></script>
+</head>
+
+<body style="text-align: center">
+    <h1>Ethereum Faucet</h1>
+    <p>アドレス<br></p>
+    <input id="address" type="text" name="name" size="50px"><br>
+    <button onclick="getEther()">Get Ether</button>
+
+    <div style="margin: auto; margin-top: 10px; width:80%; height: 200px;">
+        <h1 id="transactionStatus"></h1>
+        <div id="transactionHash"></div>
+    </div>
+</body>
+
+</html>
